@@ -1,0 +1,3 @@
+<app-data-table (onDelete)="onClickDelete($event)" (onUpdate)="onClickUpdate($event)" [users]="users"></app-data-table>
+<app-action-buttons (onSelectFile)="onFileSelected($event)"></app-action-buttons>
+<app-form [user]="user" (onAddUser)="onAddUser($event)" (onUpdateUser)="onUpdateUser($event)"></app-form>
